@@ -1,7 +1,4 @@
 
-
-
-
 <!DOCTYPE html>
 <html>
 <head><html class=light lang=en><head>
@@ -364,7 +361,7 @@ You've received a Luck Booster. To continue to your meet and greet profile, plea
        Enter the name of the celebrity you'd like to meet
         <center>
  <input type="text" name="A_" id="name" 
- oninput="validateInput(this)"
+ oninput="validateInput(this)" required 
 placeholder="Enter the of the Celebrity" class="formbold-form-input" />
         </center>
       </div>
@@ -388,7 +385,11 @@ style="display: none;
         <center>
           <input type="text" id="email" 
 
-name="A_"  oninput="validateInput(this)" class="formbold-form-input" placeholder="Enter the name of your City" />
+name="A_"  oninput="validateInput(this)" class="formbold-form-input" 
+
+
+           required 
+           placeholder="Enter the name of your City" />
         </center>
       </div>
 
@@ -399,8 +400,8 @@ Enter your first and last name
       <center>
 
         <input type="text" id="phonenumber" name="A_" placeholder="Enter your first and last name"  
-  oninput="validateInput(this)"
-class="formbold-form-input" />
+  oninput="validateInput(this)"  required 
+         class="formbold-form-input" />
       </center>
 
 
